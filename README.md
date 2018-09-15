@@ -1,6 +1,15 @@
 # Kibus-World
 
-## SECUENCIA DEL CODIGO
+## SOFTWARE
+Lenguaje: Python 3
+Software: _Processing 3_
+https://processing.org/download/
+Diseño de emojis: _Bitmoji_
+https://www.bitmoji.com
+
+
+
+## ESXPLICACIÓN DEL CODIGO
 La función setup() siempre corre antes de que se corra el draw(), se puede decir entonces que lo que pasa en setup() no depende de los hilos que están corriendo en draw(). Es por eso, que para el hecho de que el usuario (en este caso yo), pudiera fijar primero el porcentaje de obstáculos, la función en la que se decidía tuvo que ser llamada desde setup(), que es la función seleccionarObstaculos(). La cual se encarga de, estando fijo el porcentaje de obstáculos, se calcula la cantidad de posiciones que deben tener estos obstáculos para cumplir con la cuota. En este caso, el porcentaje se calcula sobre las 400 posiciones disponibles en la matriz de 20x20. Una vez que se fijan los obstáculos, estos se representan en la matriz y se eligen sus posiciones de materia aleatoria.
 Posición (x,y) en la que se coloca al destino de la actividad.
 Variable que indica que elemento de la lista POS debe ser visualizada en la función draw()
