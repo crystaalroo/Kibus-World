@@ -2,8 +2,10 @@
 
 ## SOFTWARE
 Lenguaje: Python 3
+
 Software: _Processing 3_
 https://processing.org/download/
+
 Diseño de emojis: _Bitmoji_
 https://www.bitmoji.com
 
